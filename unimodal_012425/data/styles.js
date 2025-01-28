@@ -1315,21 +1315,21 @@ var styles = [ {
       "opacity" : 1.0,
       "target-arrow-color" : "rgb(64,64,64)",
       "width" : 2.0,
-      "target-arrow-shape" : "data(interaction)"
+      "target-arrow-shape" : "triangle"
     }
   }, {
     "selector" : "edge[relationshipType = 'editorial']",
     "css" : {
       "line-color" : "rgb(253,141,60)",
       "target-arrow-color" : "rgb(253,141,60)",
-      "source-arrow-color" : "rgb(253,141,60)"
+      "source-arrow-color" : "rgb(253,141,60)",
     }
   }, {
     "selector" : "edge[relationshipType = 'print']",
     "css" : {
       "line-color" : "rgb(78,179,211)",
       "target-arrow-color" : "rgb(78,179,211)",
-      "source-arrow-color" : "rgb(78,179,211)"
+      "source-arrow-color" : "rgb(78,179,211)",
     }
   }, {
     "selector" : "edge[relationshipType = 'paper']",
